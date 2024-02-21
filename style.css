@@ -91,6 +91,27 @@ nav ul li a{
   padding-top: 40px !important;
 }
 
+nav ul li:nth-child(2) a:hover{
+  background: #df5c64;
+}nav ul li:nth-child(2) .active{
+  background: #df5c64;
+}
+nav ul li:nth-child(3) a:hover{
+  background: #91778e;
+}nav ul li:nth-child(3) .active{
+  background: #91778e;
+}
+nav ul li:nth-child(4) a:hover{
+  background: #a1ca6c;
+}nav ul li:nth-child(4) .active{
+  background: #a1ca6c;
+}
+nav ul li:nth-child(5) a:hover{
+  background: #82c8bd;
+}nav ul li:nth-child(5) .active{
+  background: #82c8bd;
+}
+
 /***********************************************************
 ************************************************************
                         owl-carousel_section Start
@@ -568,4 +589,5 @@ nav ul li a{
 .footer_section .footer_icon a{
   margin-right: 10px;
 }
+
 
