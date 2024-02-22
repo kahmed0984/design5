@@ -30,6 +30,11 @@ $(document).ready(function(){
   	// jquery plagin smoothScroll code
   	$('html').smoothScroll(550);
 
+  	// Initialize material-scrolltop (minimal)
+	$('body').materialScrollTop({
+		duration: 800,
+	});
+
 
 
 

@@ -39,6 +39,12 @@ body{
   font-size: 14px;
 }
 
+
+.material-scrolltop.reveal {
+  z-index: 1;
+  outline: none;
+}
+
 /***********************************************************
 ************************************************************
                         header section Start
@@ -321,12 +327,12 @@ nav ul li:nth-child(5) a:hover{
   margin-bottom: 30px;
 }
 .about_icon a i{
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   color: white;
   background: blue;
   border-radius: 50%;
-  padding: 7px;
+  padding: 9px;
   background: #3e61af;
   margin-left: 5px;
 }
@@ -588,6 +594,9 @@ nav ul li:nth-child(5) a:hover{
 }
 .footer_section .footer_icon a{
   margin-right: 10px;
+    transition: .3s;
 }
-
+.footer_icon a i:hover{
+ box-shadow: 0px 0px 4px 4px #78fff9;
+}
 
