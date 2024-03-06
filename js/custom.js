@@ -35,6 +35,9 @@ $(document).ready(function(){
 		duration: 800,
 	});
 
+	// jquery plagin magnificPopup code
+  	$('.Magnific_popup').magnificPopup({type:'image'});
+
 
 
 
